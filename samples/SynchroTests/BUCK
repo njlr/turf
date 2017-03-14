@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'SynchroTests',
+  srcs = glob([
+    '*.cpp',
+  ]),
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:turf',
+  ],
+)

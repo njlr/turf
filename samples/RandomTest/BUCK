@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'RandomTest',
+  srcs = [
+    'RandomTest.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:turf',
+  ],
+)
